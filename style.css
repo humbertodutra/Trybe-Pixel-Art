@@ -1,63 +1,49 @@
 body {
-
-    text-align: center;
+  text-align: center;
 }
 
 
 .color {
-    margin: 10px;
-    width: 40px;
-    height: 40px;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    display: inline-block;
+  margin: 30px;
+  width: 40px;
+  height: 40px;
+  border: black solid 1px;
+  display: inline-block;
 }
 
-
-
 .pixel {
-
-    height: 40px;
-   
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
-    background-color: white;
-
-
+  width: 40px;
+  height: 40px;
+  border-style: solid;
+  border-color: black;
+  border-width: 1px;
+  background-color: white;
+  display: inline-block;
 }
 
 #pixel-board {
-    
-    margin-top: 10px;
-    display: grid;
-    grid-template-columns: repeat(5,40px);
-    justify-content: center;
-    
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 40px);
+  justify-content: center;
+  max-height: 50;
+
 }
 
 
 #clear-board {
-
-
-    background-color: brown;
-    padding: 10px;
-    width: 110px;
-    justify-content: center;
-    font-size: small;
-    margin-bottom: 50px;
-    margin-top: 50px;
-    color: antiquewhite;
-    border-radius: 10px;
-    display: inline-block;
+  background-color: brown;
+  padding: 10px;
+  width: 110px;
+  justify-content: center;
+  font-size: small;
+  margin-bottom: 50px;
+  margin-top: 50px;
+  color: antiquewhite;
+  border-radius: 10px;
+  display: inline-block;
 }
-    
 
 #clear-board:hover {
-
-    background-color: black;
-
+  background-color: black;
 }
-  
-
